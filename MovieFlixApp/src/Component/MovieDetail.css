@@ -1,0 +1,25 @@
+.movieDetails-leftSection{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+}
+.movieDetail-container{
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    gap: 20px;
+}
+.movieDetails-sectionsContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.movieDetails-rightSection{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Plot-para{
+    width: 40vw;
+}

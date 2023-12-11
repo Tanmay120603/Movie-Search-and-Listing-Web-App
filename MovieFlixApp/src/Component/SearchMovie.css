@@ -1,0 +1,16 @@
+.search-movie-button{
+    position: absolute;
+    right: 1%;
+    background-color: #00a2ed;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    transition: all 0.3s ease;
+}
+.search-movie-button:hover{
+    cursor: pointer;
+    color: #00a2ed;
+    background-color: white;
+    border: 1px solid #00a2ed;
+}

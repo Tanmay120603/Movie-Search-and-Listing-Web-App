@@ -1,0 +1,29 @@
+.MovieCard-container{
+    padding: 25px 0rem;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 400px;
+    height: fit-content;
+    transition: all 0.3s ease;
+}
+.MovieCard-container:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.MovieCard-container h1{
+    text-align: center;
+}
+.posterImage-container{
+    display: flex;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+}
+.posterImage-container img{
+    object-fit: contain;
+}
+

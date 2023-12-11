@@ -1,0 +1,10 @@
+.appParentElement{
+  background-color: #98e7ff ;
+  padding-bottom: 2rem;
+}
+.movieCards-container{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}

@@ -1,0 +1,39 @@
+@media screen and (max-width: 1320px) {
+    .movieCards-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: auto;
+        grid-gap: 2rem;
+    }
+}
+@media screen and (max-width: 868px) {
+    .movieCards-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: auto;
+        grid-gap: 2rem;
+    }
+    .Plot-para{
+        width: 50vw;
+    }
+}
+@media screen and (max-width: 480px) {
+    .movieCards-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-auto-rows: auto;
+        grid-gap: 2rem;
+    }
+    .Plot-para{
+        width: 80vw;
+    }
+    .MovieCard-container{
+        width: 300px;
+    }
+    .movieDetails-sectionsContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }  
+}
+
